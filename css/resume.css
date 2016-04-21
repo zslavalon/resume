@@ -1,0 +1,113 @@
+/*¼òÀúcss*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: auto;
+    height: auto;
+    /*background: #000;*/
+}
+.title{
+    background: linear-gradient(top, #000, #b6b6b6);
+    background:-webkit-linear-gradient(top, #000, #b6b6b6) ;
+    width: 60%;
+    margin: 0 auto;
+    height: 220px;
+    border: 2px solid #000000;
+    border-radius: 6px 6px 0 0;
+    color:white;
+}
+.my_name{
+    font-size: 5em;
+    float: right;
+    margin-top: 15px;
+    margin-right: 17px;
+}
+._ul{
+
+    width: 23%;
+    height: 180px;
+    position: absolute;
+    top: 14px;
+    left: 32%;
+}
+
+._ul li{
+    color:rgb(232, 156, 156);;
+    font-size: 26px;
+    margin-top: 14px;
+
+}
+._more{
+    font-size: 19px;
+    float: right;
+    margin-top: 144px;
+    margin-right: -232px;
+}
+.content{
+    background: white;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    border: 2px solid#000000;
+
+}
+.jy{
+    margin: 36px;
+    font-size: 36px;
+    width: 36%;
+    height: 250px;
+    border-left: 3px solid#000000;
+
+}
+.jy_{
+
+}
+.jy_t{
+    margin-top: 10px;
+    font-size: 24px;
+    background: #000;
+    color: wheat;
+
+}
+.xx{
+    font-size: 18px;
+}
+.yy{
+    margin: 36px;
+    font-size: 36px;
+    width: 36%;
+    height: 200px;
+    border-left: 3px solid#000000;
+}
+.yy_{
+    margin-left: 10px;
+}
+.yy_n{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.xm{
+    margin: 36px;
+    font-size: 36px;
+    width: 45%;
+    height: 257px;
+    border-left: 3px solid#000000;
+
+}
+.xm_{
+    margin-left: 10px;
+}
+.xm_n{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.xm_ ul li{
+    font-size: 20px;
+    margin-left: 15px;
+}
+footer {
+    text-align: center;
+    margin: 30px 6px;
+}
