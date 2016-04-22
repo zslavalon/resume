@@ -51,13 +51,15 @@ body{
     margin: 0 auto;
     height: auto;
     border: 2px solid#000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
 }
 .jy{
     margin: 36px;
     font-size: 36px;
     width: 36%;
-    height: 250px;
+    height: 289px;
     border-left: 3px solid#000000;
 
 }
@@ -69,7 +71,8 @@ body{
     font-size: 24px;
     background: #000;
     color: wheat;
-
+    margin-left: 10px;
+    border-radius: 10px;
 }
 .xx{
     font-size: 18px;
@@ -78,7 +81,7 @@ body{
     margin: 36px;
     font-size: 36px;
     width: 36%;
-    height: 200px;
+    height: 186px;
     border-left: 3px solid#000000;
 }
 .yy_{
@@ -107,6 +110,30 @@ body{
     font-size: 20px;
     margin-left: 15px;
 }
+.jn{
+    position: absolute;
+    left: 55%;
+    top: 28%;
+    border-left: 3px solid#000000;
+    font-size: 36px;
+    height:  558px;
+    width: 462px;
+}
+.jn_{
+    margin-left: 10px;
+    width: 428px;
+    color:  wheat;
+    background: #000000;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.jn_n{
+    font-size: 22px;
+    margin-left: 10px;
+    background: #fff;
+    color: black;
+}
+
 footer {
     text-align: center;
     margin: 30px 6px;
