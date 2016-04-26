@@ -6,15 +6,18 @@
 body{
     width: auto;
     height: auto;
-    /*background: #000;*/
+    background: url("../picture/002.jpg") no-repeat;
+    /*position: inherit;*/
+    background-size: cover;
 }
 .title{
     background: linear-gradient(top, #000, #b6b6b6);
     background:-webkit-linear-gradient(top, #000, #b6b6b6) ;
     width: 60%;
     margin: 0 auto;
-    height: 220px;
+    height: auto;
     border: 2px solid #000000;
+    border-bottom: none;
     border-radius: 6px 6px 0 0;
     color:white;
 }
@@ -27,17 +30,23 @@ body{
 ._ul{
 
     width: 23%;
-    height: 180px;
+    height: auto;
     position: absolute;
     top: 14px;
     left: 32%;
 }
 
 ._ul li{
-    color:rgb(232, 156, 156);;
+    color:rgb(232, 156, 156);
     font-size: 26px;
     margin-top: 14px;
 
+}
+._ul li a{
+    color: rgb(232, 156, 156);
+}
+._ul li a:hover{
+    color: #1b6f78;
 }
 ._more{
     font-size: 19px;
@@ -112,11 +121,11 @@ body{
 }
 .jn{
     position: absolute;
-    left: 55%;
-    top: 28%;
+    left: 52%;
+    top: 257px;
     border-left: 3px solid#000000;
     font-size: 36px;
-    height:  558px;
+    height:  541px;
     width: 462px;
 }
 .jn_{
@@ -133,7 +142,106 @@ body{
     background: #fff;
     color: black;
 }
+.sx{
+    border-left: 3px solid#000000;
+    font-size: 36px;
+    /*height:  109px;*/
+    width: 462px;
+    position: absolute;
+    left: 52%;
+    top: 832px;
+}
+.sx_{
+    font-size: 15px;
+    margin-left: 10px;
+    background: #fff;
+    color: black;
+}
+.sx_button{
+    position:relative;
+    left: 7px;
+    top: 5px;
+    font-size: 19px;
+    display: none;
+}
+.xq{
+    font-size: 36px;
+    position: relative;
+    left: 42%;
+    height: 419px;
+}
+.chi{
+    position: relative;
+    top: 30px;
+    left: -25%;
+font-size: 38px;
+}
 
+.label_tag{
+    display: none;
+    /*font-size: 10px;*/
+
+}
+.tag_content{
+    clear: both;
+    display: block !important;
+}
+.x_q{
+    position: relative;
+    left: -32%;
+    top: 65px;
+}
+.contentfirst{
+    width: 200px;
+    height: 200px;
+    /*position: relative;*/
+    /*left: -358px;*/
+    /*top: 65px;*/
+    border: 2px solid#000000;
+    display: none;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.x_q_{
+    position: absolute;
+    left: 16%;
+    top: 26%;
+}
+#toggle{
+    position: absolute;
+    left: 373px;
+    top: 58px;
+    width: 98px;
+    height: 38px;
+    /*制作渐变背景*/
+   background: #ffffff;
+    border: 1px solid #000;
+    box-shadow: 0 0 2px black;
+    /*css的颜色模块*/
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,25);
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    /*文字阴影*/
+    text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+    text-decoration: none;
+}
+
+#toggle:active{
+    background:#fff;
+    background-image: none;
+    outline: 0;
+    /*盒子阴影特性*/
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    color: black;
+}
+.zz{
+    /*margin: 0 auto;*/
+    font-size: 2em;
+    color: #1b6f78;
+    text-align: center;
+}
 footer {
     text-align: center;
     margin: 30px 6px;
